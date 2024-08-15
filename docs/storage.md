@@ -6,6 +6,8 @@
 * to preview the reference properly, we work from a fork 
 * will have to be updated from org rngadam to openwallet-foundation before being merged back
 
+see: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet
+
 ## Tails files
 
 ### Implementation of BasicTailsFileService
@@ -13,8 +15,6 @@
 * [export class InMemoryTailsFileService extends BasicTailsFileService {](https://github.com/rngadam/credo-ts/blob/a65a9c39879e83975de25022bd962a9ed16bcec3/packages/anoncreds/tests/InMemoryTailsFileService.ts#L8-L9)
 
 ### BasicTailsFileService
-
-see: https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-a-permanent-link-to-a-code-snippet
 
 [public async getTailsBasePath(agentContext: AgentContext) {](https://github.com/rngadam/credo-ts/blob/a65a9c39879e83975de25022bd962a9ed16bcec3/packages/anoncreds/src/services/tails/BasicTailsFileService.ts#L14-L21)
 
@@ -49,14 +49,23 @@ implementations:
 
 https://github.com/rngadam/credo-ts/blob/a65a9c39879e83975de25022bd962a9ed16bcec3/packages/react-native/src/ReactNativeFileSystem.ts#L27-L36
 
-
 ### RNFS aka react-native-fs.CachesDirectoryPath
 
 https://www.npmjs.com/package/@dr.pogodin/react-native-fs#cachesdirectorypath
 
-* Android: https://github.com/birdofpreyru/react-native-fs/blob/eede7c9e0e7b02ab2952d584e0d54ee897d71d3f/android/src/main/java/com/drpogodin/reactnativefs/ReactNativeFsModule.kt#L76
+* Android:
 
-* iOS: https://github.com/birdofpreyru/react-native-fs/blob/eede7c9e0e7b02ab2952d584e0d54ee897d71d3f/ios/ReactNativeFs.mm#L1064
+https://github.com/birdofpreyru/react-native-fs/blob/eede7c9e0e7b02ab2952d584e0d54ee897d71d3f/android/src/main/java/com/drpogodin/reactnativefs/ReactNativeFsModule.kt#L76
+
+* iOS
+
+https://github.com/birdofpreyru/react-native-fs/blob/eede7c9e0e7b02ab2952d584e0d54ee897d71d3f/ios/ReactNativeFs.mm#L1064
+
+### Android
+
+https://developer.android.com/training/data-storage/app-specific#internal-create-cache
+
+### iOS
 
 
 

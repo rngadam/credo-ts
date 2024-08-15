@@ -1,5 +1,9 @@
 # Storage
 
+## Purpose
+
+We dig into where the actual tails files are stored on mobile devices for Credo React-Native applications.
+
 ## Notes
 
 * source embedding only work in the original repo

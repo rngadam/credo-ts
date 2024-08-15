@@ -24,6 +24,10 @@ see: https://docs.github.com/en/get-started/writing-on-github/working-with-advan
 
 https://github.com/rngadam/credo-ts/blob/a65a9c39879e83975de25022bd962a9ed16bcec3/packages/anoncreds/src/services/tails/BasicTailsFileService.ts#L14-L21
 
+note that we have this extra file appended because the createDirectory finds out the path from a full file path:
+
+https://github.com/rngadam/credo-ts/blob/a65a9c39879e83975de25022bd962a9ed16bcec3/packages/react-native/src/ReactNativeFileSystem.ts#L42-L44
+
 [protected async getTailsFilePath(agentContext: AgentContext, tailsHash: string) {](https://github.com/rngadam/credo-ts/blob/a65a9c39879e83975de25022bd962a9ed16bcec3/packages/anoncreds/src/services/tails/BasicTailsFileService.ts#L79-L82)
 
 https://github.com/rngadam/credo-ts/blob/a09315070dd6914b8d51e0d94005e11d7a0f49cc/packages/anoncreds/src/services/tails/BasicTailsFileService.ts#L79-L81
